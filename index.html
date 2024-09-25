@@ -29,8 +29,22 @@
                 <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
                 <section data-markdown="slides/title.html" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
 
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown="slides/slide1.html"></section>
+				<section>
+					<section data-markdown="slides/slide2/index.md"></section>
+					<section data-markdown="slides//slide2/a.md"></section>
+				</section>
+
+				<section>
+					<section data-markdown="slides/slide3/index.md"></section>
+					<section data-markdown="slides//slide3/a.md"></section>
+				</section>
+
+				<section>
+					<section data-markdown="slides/slide4/index.md"></section>
+					<section data-markdown="slides//slide4/a.md"></section>
+					<section data-markdown="slides//slide4/b.md"></section>
+				</section>
 			</div>
 		</div>
 
@@ -38,15 +52,26 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
+				katex: {
+					local: 'node_modules/katex',
+					version: 'latest',
+					delimiters: [
+					{ left: '$$', right: '$$', display: true },
+					{ left: '$', right: '$', display: false },
+					{ left: '\\(', right: '\\)', display: false },
+					{ left: '\\[', right: '\\]', display: true },
+					],
+					ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				},
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
 			});
 		</script>
 	</body>
