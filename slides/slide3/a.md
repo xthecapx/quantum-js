@@ -3,7 +3,7 @@
 * An <strong>observer</strong> cannot be excluded from the theory since nothing can be <strong>measured without altering it</strong>.
 * Everything that can happen does.
 
-<div class="r-stack img-container">
+<div class="r-stack r-stretch">
   <img
     data-fragment-index="0"
     class="fragment"

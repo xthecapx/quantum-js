@@ -13,9 +13,8 @@
     "build": "gulp build"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Thecap",
+    "email": "xthecapx@gmail.com"
   },
   "repository": {
     "type": "git",
