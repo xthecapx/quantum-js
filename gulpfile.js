@@ -264,7 +264,12 @@ gulp.task('test', gulp.series( 'eslint', 'qunit' ))
 
 gulp.task('default', gulp.series(gulp.parallel('js', 'css', 'plugins'), 'test'))
 
-gulp.task('build', gulp.parallel('js', 'css', 'plugins'))
+gulp.task('html', () => {
+    return gulp.src(['*.html'])
+        .pipe(gulp.dest('./dist'));
+});
+
+gulp.task('build', gulp.parallel('js', 'css', 'plugins', 'html'))
 
 gulp.task('package', gulp.series(() =>
 
@@ -319,3 +324,4 @@ gulp.task('serve', () => {
     gulp.watch(['test/*.html'], gulp.series('test'))
 
 })
+
