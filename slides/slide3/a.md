@@ -1,27 +1,8 @@
 ### Quantum mechanics confuses people because:
 
-* An <strong>observer</strong> cannot be excluded from the theory since nothing can be <strong>measured without altering it</strong>.
-* Everything that can happen does.
-
-<div class="r-stack r-stretch">
-  <img
-    data-fragment-index="0"
-    class="fragment"
-    src="slides/assets/feyman.jpeg"
-  />
-  <!-- <small>Quantum electrodynamics (Feyman et al.)</small> -->
-  <!-- https://x.com/PhysInHistory/status/1788898199681257889 -->
-  <img
-    data-fragment-index="1"
-    class="fragment"
-    src="slides/assets/everett.webp"
-  />
-  <!-- <small>The many-worlds interpretation (Everett). </small> -->
-  <!-- https://www.zmescience.com/feature-post/history-and-humanities/people/huge-everett-many-worlds/ -->
-  <img
-    data-fragment-index="2"
-    class="fragment"
-    src="slides/assets/niels-bohr.jpg"
-  />
-  <!-- https://interestingengineering.com/science/niels-bohrs-quantum-mechanics-and-philosophy-of-physics -->
+<div class="r-stretch d-flex align-items-star justify-content-center flex-column">
+    <ul>
+        <li>An <strong>observer</strong> cannot be excluded from the theory since nothing can be <strong>measured without altering it</strong>. <span class="cursor-pointer" data-bs-toggle="tooltip" data-bs-title="In quantum mechanics, the act of observation or measurement affects the system being observed, making it impossible to obtain information without influencing the outcome.">⚠️</span></li>
+        <li>Everything that can happen does. <span class="cursor-pointer" data-bs-toggle="tooltip" data-bs-title="This refers to the many-worlds interpretation of quantum mechanics, where every possible outcome of a quantum event occurs in separate, branching universes.">⚠️</span></li>
+    </ul>
 </div>
