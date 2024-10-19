@@ -1,3 +1,3 @@
 ### Let's code
 
-<button class="btn btn-primary" href="https://xthecapx.github.io/quantum-react-js/" target="_blank">Link to code</button>
+<a href="https://github.com/xthecapx/quantum-react-js" target="_href" class="btn btn-secondary btn-lg text-light">Link to code</a>
