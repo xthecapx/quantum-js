@@ -1,4 +1,4 @@
-### Here are our main characters
+### Before talking about the game
 
 <div class="r-stack r-stretch">
     <div data-fragment-index="0" class="fragment card">
