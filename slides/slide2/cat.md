@@ -22,8 +22,8 @@
             First
         </div>
         <div class="card-body">
-            Quantum physics is about Quantum States evolution <br />
-            A quantum state correspond to an object's characteristics
+            Quantum physics is about <strong>quantum states</strong> evolution <br />
+            A <strong>quantum state</strong> correspond to an object's characteristics
         </div>
     </div>
     <div data-fragment-index="3" class="fragment card">
@@ -31,7 +31,7 @@
             The damn cat
         </div>
         <div class="card-body">
-            The quantum cat ecuation can calculate quantum cat state evolution. <br />
+            The quantum cat ecuation can calculate <strong>quantum cat state</strong> evolution. <br />
             how do you measure alive or dead? <br />
             It's a single event! Quantum works on many events! <br />
         </div>

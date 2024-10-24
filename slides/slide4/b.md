@@ -1,4 +1,5 @@
-### The rules
+### Let's understand the game 
+#### (using JavaScript)
 
 <a href="https://xthecapx.github.io/quantum-react-js/#/chsh" target="_href" class="btn btn-secondary btn-lg text-light">Ale &amp; Brayan</a>
 
